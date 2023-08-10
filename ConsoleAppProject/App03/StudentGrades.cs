@@ -30,5 +30,20 @@ namespace ConsoleAppProject.App03
 
         public int Minimum { get; set; }
 
+        // Attributes
+
+        /// <summary>
+        ///
+        /// </summary>
+        
+        public StudentGrades()
+        {
+            Students = new string[]
+                    {
+                "Humza","Owais","Hasan","Ali","Umer","Adil"};
+                
+        }
+        
+
     }
 }
