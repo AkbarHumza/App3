@@ -12,7 +12,7 @@ namespace ConsoleAppProject.App03
     {
         // Constants (Grade Boundaries)
 
-        public const int LowestMark = 0
+        public const int LowestMark = 0;
         public const int LowestGradeD = 40;
         public const int LowestGradeC = 50;
         public const int LowestGradeB = 60;
@@ -41,7 +41,7 @@ namespace ConsoleAppProject.App03
             Students = new string[]
                     {
                 "Humza","Owais","Hasan","Ali","Umer","Adil"};
-                
+
         }
         
 
