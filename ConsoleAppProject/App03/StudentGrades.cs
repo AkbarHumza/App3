@@ -6,11 +6,18 @@ using ConsoleAppProject.Helpers;
 namespace ConsoleAppProject.App03
 {
     /// <summary>
-    /// At the moment this class just tests the
-    /// Grades enumeration names and descriptions
+    /// 
     /// </summary>
     public class StudentGrades
     {
+        // Constants (Grade Boundaries)
+
+        public const int LowestMark = 0
+        public const int LowestGradeD = 40;
+        public const int LowestGradeC = 50;
+        public const int LowestGradeB = 60;
+        public const int LowestGradeA = 70;
+        public const int HighestMark = 100;
 
     }
 }
