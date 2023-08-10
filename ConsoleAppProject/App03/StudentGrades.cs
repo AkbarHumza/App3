@@ -19,5 +19,16 @@ namespace ConsoleAppProject.App03
         public const int LowestGradeA = 70;
         public const int HighestMark = 100;
 
+        // Properties
+        public string [] Students { get; set; }
+
+        public int[] Marks { get; set; }
+
+        public int[] GradeProfile { get; set; }
+
+        public double Mean { get; set; }
+
+        public int Minimum { get; set; }
+
     }
 }
